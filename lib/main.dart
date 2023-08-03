@@ -18,7 +18,7 @@ class MainApp extends StatelessWidget {
         ),
         // Aqui establemceos los colorees por defecto
         floatingActionButtonTheme: const FloatingActionButtonThemeData(
-          backgroundColor: Color(0xff1CC956),
+          backgroundColor: Color(0xff085E55),
         ),
       ),
       home: HomePage(),
