@@ -2,7 +2,7 @@
 
 ## Descripción
 Este proyecto es una implementación de un clon de la aplicación de mensajería WhatsApp utilizando el framework Flutter. El objetivo principal de este proyecto es demostrar cómo se pueden utilizar las capacidades de Flutter para crear una interfaz de usuario similar a la de WhatsApp y simular algunas de sus funcionalidades básicas.
-![Screenshot_1691120216](https://github.com/arnoldbgm/flutter-whatsapp-clone/assets/108824074/f080654a-9e4b-45a7-95c0-130af2150d65)
+<img src="https://github.com/arnoldbgm/flutter-whatsapp-clone/assets/108824074/f080654a-9e4b-45a7-95c0-130af2150d65" alt="Screenshot" width="300">
 
 
 ## Requisitos
