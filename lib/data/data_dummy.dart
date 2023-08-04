@@ -1,3 +1,5 @@
+import 'package:flutter_clone_whatsapp/models/chat_message.dart';
+
 import '../models/chat_model.dart';
 
 List<ChatModel> chatList = [
@@ -73,4 +75,25 @@ List<ChatModel> chatList = [
     countMessage: 1,
     isTyping: true,
   ),
+];
+
+List<ChatMessage> chatMessageList = [
+  ChatMessage(messageContent: "Hola Juan, como estas?", messageType: "other"),
+  ChatMessage(
+      messageContent: "Hola, hermano estoy bien tdo ok", messageType: "me"),
+  ChatMessage(messageContent: "¡Hola a todos!", messageType: "me"),
+  ChatMessage(messageContent: "¿Qué tal están?", messageType: "me"),
+  ChatMessage(
+      messageContent: "Espero que tengan un buen día", messageType: "me"),
+  ChatMessage(
+      messageContent: "Me encanta este clon de WhatsApp", messageType: "me"),
+  ChatMessage(messageContent: "¡Saludos!", messageType: "me"),
+  ChatMessage(
+      messageContent: "¡Hola desde el otro lado!", messageType: "other"),
+  ChatMessage(messageContent: "¡Hola! ¿Cómo están?", messageType: "me"),
+  ChatMessage(messageContent: "Buenas tardes a todos", messageType: "other"),
+  ChatMessage(
+      messageContent: "¡Que tengan un excelente día!", messageType: "me"),
+  ChatMessage(
+      messageContent: "Este es un mensaje de prueba", messageType: "other"),
 ];

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_clone_whatsapp/pages/call_page.dart';
 import 'package:flutter_clone_whatsapp/pages/chat_page.dart';
 
 class HomePage extends StatefulWidget {
@@ -62,7 +63,7 @@ class _HomePageState extends State<HomePage>
           Center(child: Text("pagina 01")),
           ChatPage(),
           Center(child: Text("pagina 03")),
-          Center(child: Text("pagina 04")),
+          CallPage(),
         ],
       ),
     );
